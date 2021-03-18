@@ -1,0 +1,156 @@
+*,body{
+    font-family: 'Poppins', sans-serif;
+	/* font-family: 'Roboto', sans-serif; */
+    list-style: none;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+ul,li{
+	margin: 0;
+	padding:0;
+}
+.Defaut-text span {
+	color: #3763eb;
+	font-size: 17px;
+	font-weight: 300;
+}
+.Defaut-text h2 {
+	font-size: 31px;
+	font-weight: 700;
+	margin: 12px 0;
+	letter-spacing: 1px;
+	position: relative;
+}
+.Defaut-text p {
+    color: #8c8383;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 38px;
+}
+.section-bg{
+	background: #f6f9fc;
+}
+body .btn-primary {
+	padding: 10px 25px;
+	border-radius: 50px;
+}
+
+/* ==============================
+section.newsletter-section 
+=================================*/
+
+section.newsletter-section {
+    padding: 100px 0;
+}
+
+.signup-letter {
+    color: white;
+    background: #3763eb;
+    padding: 50px 89px 65px 50px;
+    border-radius: 5px;
+}
+.signup-title h4 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.signup-title p {
+    font-weight: 100;
+    margin-bottom: 38px;
+    font-size: 15px;
+}
+.signup-form input {
+    padding: 15px 25px 15px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.signup-form input::placeholder{
+   color: #999;
+   font-size: 15px;
+}
+.signup-form input {
+    padding: 13px 25px 13px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.business-suggestion h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.business-suggestion {
+    background: white;
+    padding: 42px 30px;
+    box-shadow: -4px 1px 50px 0 #e2e2e2;
+    border-radius: 5px;
+}
+.business-suggestion a {
+    padding: 13px 29px;
+    background: #3763eb;
+    font-size: 16px;
+}
+.business-suggestion p {
+    font-size: 15px;
+    color: #8d8894;
+}
+
+.client-section{
+	padding: 100px 0;
+}
+.client-details h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52px;
+    position: relative;
+}
+.client-details h2::after {
+    content: "";
+    background: blue;
+    position: absolute;
+    left: 0;
+    bottom: -17px;
+    width: 50px;
+    height: 2px;
+}
+.clinet-brand-logo img {
+    filter: opacity(0.5);
+	transition: .5s;
+}
+.clinet-border:hover .clinet-brand-logo img{
+   filter: opacity(1);
+}
+
+.col-xl-4.clinet-border {
+    border: 1px solid #ddd;
+    padding: 35px 25px;
+	transition: .5s;
+}
+.col-xl-4.clinet-border:hover{
+   background-color: #f6f9fc;
+}
+
+.col-xl-4.clinet-border:nth-child(1) {
+   border-bottom: none;
+	border-right: none;
+}
+.col-xl-4.clinet-border:nth-child(2) {
+   border-bottom: none;
+   border-right: none;
+}
+.col-xl-4.clinet-border:nth-child(3) {
+   border-bottom: none;
+}
+.col-xl-4.clinet-border:nth-child(4) {
+   border-right: none;
+}
+.col-xl-4.clinet-border:nth-child(5) {
+   border-right: none;
+}
+
+.client-details {
+    padding-right: 100px;
+}
